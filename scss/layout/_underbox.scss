@@ -1,14 +1,36 @@
 .underbox {
     background: var(--pure-white-color);
+
+padding-top: 60px;
+padding-bottom: 60px;
+
+@media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+}
+
     
     &__list {
-        display: flex;
-        align-items: baseline;
-        gap: 30px;
-        justify-content: space-between;
+
+
+
+    @media screen and (min-width: 1200px) {
+                display: flex;
+                    align-items: baseline;
+                    gap: 30px;
+                    justify-content: space-between;
+    }
+
+
+        // display: flex;
+        // align-items: baseline;
+        // gap: 30px;
+        // justify-content: space-between;
 
         &__item {
             width: 270px;
+            
         }
 
         &__title {
@@ -34,24 +56,27 @@
             color: var(--text-color);
         }
 
-    }
-
-
-    &__list-icon {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 30px;
-        margin-bottom: 30px;
-        
-        &__link {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 270px;
-            height: 120px;
-            background-color: var(--team-background-color);
+        &__icon {
+    
+        @media screen and (min-width: 1200px) {
+    
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 30px;
+                        width: 100%;
         }
+   
+        }
+
+        &__background {
+            
+            background-color: var(--team-background-color);
+            padding-top: 25px;
+            padding-bottom: 25px;
+            margin-bottom: 30px;
+        }
+
     }
 
 }

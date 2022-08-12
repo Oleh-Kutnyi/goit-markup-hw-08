@@ -34,7 +34,7 @@
 .body {
   font-family: "Roboto", sans-serif;
 }
-@media screen and (min-width = 320px) {
+@media screen and (min-width: 320px) {
   .body {
     min-width: 320px;
     overflow-x: hidden;
@@ -86,11 +86,25 @@ h2 {
 }
 
 .container {
-  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 738px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 .section {
@@ -723,18 +737,28 @@ h2 {
 
 .underbox {
   background: var(--pure-white-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
-.underbox__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  gap: 30px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+@media screen and (min-width: 1200px) {
+  .underbox {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .underbox__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    gap: 30px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 .underbox__list__item {
   width: 270px;
@@ -759,32 +783,26 @@ h2 {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-.underbox__list-icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 30px;
-  margin-bottom: 30px;
+@media screen and (min-width: 1200px) {
+  .underbox__list__icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 30px;
+    width: 100%;
+  }
 }
-.underbox__list-icon__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 270px;
-  height: 120px;
+.underbox__list__background {
   background-color: var(--team-background-color);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .box-section {
