@@ -1,7 +1,8 @@
 .footer-section {
     background: var(--main-background-color);
     padding: 60px 0px;
-    
+
+
     &__logo {
         font-family: "Raleway";
         font-style: normal;
@@ -25,6 +26,9 @@
         color: var(--pure-white-color);
         margin-top: 20px;
         margin-bottom: 10px;
+
+        width: 231px;
+
     }
     
     &__contacts {
