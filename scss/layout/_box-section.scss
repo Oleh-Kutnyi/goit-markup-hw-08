@@ -1,8 +1,17 @@
+
+
 .box-section {
-    background: var(--pure-white-color);
-    padding-top: 0px;
+    display: none;
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .box-section {
+        background: var(--pure-white-color);
+        padding-top: 0px;
    
-    &__title {
+        &__title {
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
@@ -28,9 +37,11 @@
         background: rgba(47, 48, 58, 0.8);
         padding: 27px 82px;
         width: 100%;
-    
+        
         z-index: 120;
         position: absolute;
         bottom: 0;
     }
 }
+
+    }
