@@ -1,0 +1,40 @@
+
+// Utils Styles
+
+@import "./utils/variables" ;
+@import "./utils/viasualy-hidden" ;
+
+// Base Styles
+
+@import "./base/base" ;
+@import "./base/reset" ;
+
+// Components Styles
+
+@import "./components/card-set" ;
+@import "./components/container" ;
+@import "./components/section";
+@import "./components/btn-list";
+@import "./components/footer-container";
+@import "./components/backdrop";
+@import "./components/modal";
+@import "./components/form-modal";
+@import "./components/social-footer";
+@import "./components/social-team";
+
+
+
+
+
+
+// Layout Styles
+@import "./layout/header" ;
+@import "./layout/header-nav";
+@import "./layout/hero-section";
+@import "./layout/underbox";
+@import "./layout/box-section";
+@import "./layout/team-section";
+@import "./layout/client-section";
+@import "./layout/grid";
+@import "./layout/footer-section";
+@import "./layout/footer-form";

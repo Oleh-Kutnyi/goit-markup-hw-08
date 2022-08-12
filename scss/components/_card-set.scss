@@ -1,0 +1,20 @@
+/* Card Set */
+
+$indent: 30px;
+$items: 4;
+
+
+.card-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--indent);
+    justify-content: space-between;
+}
+
+// .card-set__items {
+//     flex-basis: calc (100% - var(--indent) * (var(--items) - 1) / var(--items));
+
+
+@mixin card-set__items($indent, $item) {
+    flex-basis: calc((100% - #{$indent} * (#{$item} - 1)) / #{$item});
+}
