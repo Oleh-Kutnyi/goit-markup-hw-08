@@ -12,6 +12,11 @@ padding-bottom: 60px;
 
     
     &__list {
+                        
+        display: block;                   
+        align-items: baseline;                   
+        gap: 30px;                   
+        justify-content: space-between;
 
 
 
@@ -23,21 +28,22 @@ padding-bottom: 60px;
     }
 
 
-        // display: flex;
-        // align-items: baseline;
-        // gap: 30px;
-        // justify-content: space-between;
-
         &__item {
-            width: 270px;
-            
-        }
+            width: 100%;
 
-        &__title {
-            margin-bottom: 10px;
+            @media screen and (min-width: 1200px) {
+                
+                width: 270px;
+            }
+
+            
         }
         
          &__title {
+
+
+            text-align: center;
+
             font-style: normal;
             font-weight: 700;
             font-size: 14px;
@@ -45,6 +51,23 @@ padding-bottom: 60px;
             letter-spacing: 0.03em;
             text-transform: uppercase;
             color: var(--title-color);
+            margin-bottom: 10px;
+
+
+            @media screen and (min-width: 1200px) {
+
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.1;
+                letter-spacing: 0.03em;
+                text-transform: uppercase;
+                    color: var(--title-color);
+                    margin-bottom: 10px;
+            }
+
+
+            
         }
         
          &__text {
@@ -57,6 +80,13 @@ padding-bottom: 60px;
         }
 
         &__icon {
+
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 30px;
+                    width: 100%;
     
         @media screen and (min-width: 1200px) {
     
@@ -70,11 +100,20 @@ padding-bottom: 60px;
         }
 
         &__background {
-            
+
             background-color: var(--team-background-color);
             padding-top: 25px;
             padding-bottom: 25px;
             margin-bottom: 30px;
+
+            
+        @media screen and (min-width: 1200px) {
+        
+            background-color: var(--team-background-color);
+            padding-top: 25px;
+            padding-bottom: 25px;
+            margin-bottom: 30px;
+            }
         }
 
     }

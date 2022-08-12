@@ -746,6 +746,16 @@ h2 {
     padding-bottom: 94px;
   }
 }
+.underbox__list {
+  display: block;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  gap: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 @media screen and (min-width: 1200px) {
   .underbox__list {
     display: -webkit-box;
@@ -761,12 +771,15 @@ h2 {
   }
 }
 .underbox__list__item {
-  width: 270px;
+  width: 100%;
+}
+@media screen and (min-width: 1200px) {
+  .underbox__list__item {
+    width: 270px;
+  }
 }
 .underbox__list__title {
-  margin-bottom: 10px;
-}
-.underbox__list__title {
+  text-align: center;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -774,6 +787,19 @@ h2 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-color);
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 1200px) {
+  .underbox__list__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+    margin-bottom: 10px;
+  }
 }
 .underbox__list__text {
   font-style: normal;
@@ -782,6 +808,19 @@ h2 {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--text-color);
+}
+.underbox__list__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  width: 100%;
 }
 @media screen and (min-width: 1200px) {
   .underbox__list__icon {
@@ -803,6 +842,14 @@ h2 {
   padding-top: 25px;
   padding-bottom: 25px;
   margin-bottom: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .underbox__list__background {
+    background-color: var(--team-background-color);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+  }
 }
 
 .box-section {
