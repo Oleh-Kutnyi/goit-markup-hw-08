@@ -3,8 +3,8 @@
 .header-nav {
     @media screen and (max-width: 767px) {
         display: none;
-        // margin-right: auto;
     }
+    margin-right: auto;
     
     &__current {
         position: relative;
