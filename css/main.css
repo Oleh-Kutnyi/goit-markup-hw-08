@@ -728,7 +728,7 @@ h2 {
   line-height: 1.2;
   /* identical to box height, or 122% */
   letter-spacing: 0.02em;
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .menu-btn {
@@ -765,9 +765,15 @@ h2 {
 
 .header {
   background-color: var(--pure-white-color);
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   border-bottom: 1px solid #ececec;
+}
+@media screen and (min-width: 767px) {
+  .header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
 }
 .header__container {
   display: -webkit-box;
