@@ -1295,7 +1295,6 @@ h2 {
   margin-bottom: 20px;
 }
 .footer-form__btn {
-  padding: 10px 28px;
   width: 200px;
   height: 50px;
   background: var(--blue-color-text);
@@ -1316,4 +1315,7 @@ h2 {
   position: relative;
   top: 5px;
   right: -10px;
+}
+.footer-form__section {
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
