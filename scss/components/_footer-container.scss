@@ -1,6 +1,16 @@
 .footer-container {
     display: flex;
-    justify-content: baseline;
-    align-items: baseline;
-    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+
+
+    @media screen and (min-width: 1200px) {
+
+            display: flex;
+                justify-content: baseline;
+                align-items: baseline;
+                gap: 60px;
+    }
 }
