@@ -1,11 +1,11 @@
 
 
 .box-section {
-    display: none;
-}
 
+    @media screen and (max-width: 1200px) {
+        display: none;
+    }
 
-@media screen and (min-width: 1200px) {
 
     .box-section {
         background: var(--pure-white-color);
@@ -42,6 +42,5 @@
         position: absolute;
         bottom: 0;
     }
+  }
 }
-
-    }

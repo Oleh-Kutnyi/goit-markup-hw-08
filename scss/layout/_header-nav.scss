@@ -1,7 +1,10 @@
 
 
 .header-nav {
-    margin-right: auto;
+    @media screen and (max-width: 767px) {
+        display: none;
+        // margin-right: auto;
+    }
     
     &__current {
         position: relative;
@@ -51,6 +54,13 @@
         }
     }
     
+     &__link {
+        @media screen and (max-width:767px) {
+            display: none;
+        }
+     }
+
+
     &__contacts {
         font-style: normal;
         font-weight: 500;
@@ -87,7 +97,7 @@
     }
 
 
-
+ 
 
 
 
