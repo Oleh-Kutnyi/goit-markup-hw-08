@@ -1,5 +1,19 @@
 .team-section {
     background: var(--team-background-color);
+
+    &__img{
+
+        @media screen and (min-width: 767px) {
+            
+            width: 354px;
+        }
+
+                 @media screen and (min-width: 1200px) {
+        
+                     width: 270px;
+                
+                 }
+    }
     
     &__back {
         background-color: var(--pure-white-color);
