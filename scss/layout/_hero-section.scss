@@ -27,13 +27,13 @@
                     background-image:linear-gradient(to right,
                     rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)), 
-                    url(../../images/hero-img/Hero-img@1x-sm.jpg) ;
+                    url(../images/hero-img/Hero-img@1x-sm.jpg) ;
 
                             @media screen and (min-device-pixel-ratio: 2),
                                 (min-resolution: 192dpi),
                                 (min-resolution: 2dppx) {
                             
-                                    background-image: url(../../images/hero-img/Hero-img@2x-sm.jpg);
+                                    background-image: url(../images/hero-img/Hero-img@2x-sm.jpg);
                                 }
                     
                     ;
@@ -44,13 +44,13 @@
         height: 400px;
         background-image:linear-gradient(to right,
                 rgba(47, 48, 58, 0.4),
-                rgba(47, 48, 58, 0.4)), url(../../images/hero-img/Hero-img@1x-md.jpg);
+                rgba(47, 48, 58, 0.4)), url(../images/hero-img/Hero-img@1x-md.jpg);
 
                         @media screen and (min-device-pixel-ratio: 2),
                             (min-resolution: 192dpi),
                             (min-resolution: 2dppx) {
                         
-                                background-image: url(../../images/hero-img/Hero-img@2x-md.jpg);
+                                background-image: url(../images/hero-img/Hero-img@2x-md.jpg);
                             }
 
        }
@@ -62,13 +62,13 @@
         padding-top: 200px;
          background-image:linear-gradient(to right,
                 rgba(47, 48, 58, 0.4),
-                rgba(47, 48, 58, 0.4)), url(../../images/hero-img/Hero-img@1x-lg.jpg);
+                rgba(47, 48, 58, 0.4)), url(../images/hero-img/Hero-img@1x-lg.jpg);
 
                         @media screen and (min-device-pixel-ratio: 2),
                             (min-resolution: 192dpi),
                             (min-resolution: 2dppx) {
                         
-                                background-image: url(../../images/hero-img/Hero-img@2x-sm.jpg);
+                                background-image: url(../images/hero-img/Hero-img@2x-sm.jpg);
                             }
        }
 
