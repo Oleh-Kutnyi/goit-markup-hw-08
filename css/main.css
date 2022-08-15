@@ -262,6 +262,12 @@ h2 {
   transition: transform 400ms ease-in-out 200ms, opacity 400ms ease-in-out 200ms;
   transition: transform 400ms ease-in-out 200ms, opacity 400ms ease-in-out 200ms, -webkit-transform 400ms ease-in-out 200ms;
 }
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 450px;
+    height: 610px;
+  }
+}
 .modal__btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -923,6 +929,8 @@ h2 {
   margin-left: auto;
   display: block;
   max-width: 100%;
+  padding-top: 118px;
+  padding-bottom: 118px;
 }
 @media screen and (min-width: 480px) {
   .hero-section__img {
@@ -951,6 +959,7 @@ h2 {
 @media screen and (min-width: 1200px) {
   .hero-section__img {
     height: 600px;
+    padding-top: 200px;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/hero-img/Hero-img@1x-lg.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero-img/Hero-img@1x-lg.jpg);
   }
