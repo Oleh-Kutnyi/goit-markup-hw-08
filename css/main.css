@@ -99,12 +99,12 @@ h2 {
 }
 @media screen and (min-width: 480px) {
   .container {
-    width: 450px;
+    width: 480px;
   }
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 738px;
+    width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1108,6 +1108,15 @@ h2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+@media screen and (min-width: 767px) {
+  .underbox__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 @media screen and (min-width: 1200px) {
   .underbox__list {
     display: -webkit-box;
@@ -1125,6 +1134,11 @@ h2 {
 .underbox__list__item {
   width: 100%;
 }
+@media screen and (min-width: 767px) {
+  .underbox__list__item {
+    width: 354px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .underbox__list__item {
     width: 270px;
@@ -1140,6 +1154,11 @@ h2 {
   text-transform: uppercase;
   color: var(--title-color);
   margin-bottom: 10px;
+}
+@media screen and (min-width: 767px) {
+  .underbox__list__title {
+    text-align: start;
+  }
 }
 @media screen and (min-width: 1200px) {
   .underbox__list__title {
@@ -1239,15 +1258,14 @@ h2 {
 .team-section {
   background: var(--team-background-color);
 }
-@media screen and (min-width: 767px) {
-  .team-section__img {
-    width: 354px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .team-section__img {
-    width: 270px;
-  }
+.team-section__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 .team-section__back {
   background-color: var(--pure-white-color);

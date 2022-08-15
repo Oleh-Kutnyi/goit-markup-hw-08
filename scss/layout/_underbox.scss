@@ -18,6 +18,16 @@ padding-bottom: 60px;
         gap: 30px;                   
         justify-content: space-between;
 
+    
+    @media screen and (min-width: 767px) {
+    
+
+        display: flex;
+        flex-wrap: wrap;
+
+        
+    }
+
 
 
     @media screen and (min-width: 1200px) {
@@ -30,6 +40,12 @@ padding-bottom: 60px;
 
         &__item {
             width: 100%;
+
+
+            @media screen and (min-width: 767px) {
+                
+                width: 354px;
+            }
 
             @media screen and (min-width: 1200px) {
                 
@@ -52,6 +68,11 @@ padding-bottom: 60px;
             text-transform: uppercase;
             color: var(--title-color);
             margin-bottom: 10px;
+
+
+            @media screen and (min-width: 767px) {
+                text-align: start;
+            }
 
 
             @media screen and (min-width: 1200px) {

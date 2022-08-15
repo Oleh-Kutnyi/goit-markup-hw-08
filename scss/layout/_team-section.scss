@@ -3,16 +3,11 @@
 
     &__img{
 
-        @media screen and (min-width: 767px) {
-            
-            width: 354px;
-        }
-
-                 @media screen and (min-width: 1200px) {
-        
-                     width: 270px;
-                
-                 }
+        display: block;
+        max-width: 100%;
+        height: auto;
+          object-fit: cover;
+          object-position: center;
     }
     
     &__back {
