@@ -11,7 +11,12 @@
     
         color: var(--pure-white-color);
 
-        @media screen and (max-width: 766px) {
+        @media screen and (min-width: 480px) {
+            text-align: center;
+
+        }
+
+        @media screen and(min-width: 767px) {
             text-align: center;
         }
     }

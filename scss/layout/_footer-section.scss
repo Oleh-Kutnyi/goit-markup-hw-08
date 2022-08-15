@@ -2,6 +2,12 @@
     background: var(--main-background-color);
     padding: 60px 0px;
 
+    &__div {
+        @media screen and (min-width: 767px) {
+           margin-right: 165px; 
+        }
+    }
+
 
     &__logo {
         font-family: "Raleway";
