@@ -9,6 +9,12 @@ $items: 4;
     flex-wrap: wrap;
     gap: var(--indent);
     justify-content: space-between;
+
+
+ @media screen and (min-width:450px){
+    justify-content: center;
+ }
+
 }
 
 // .card-set__items {

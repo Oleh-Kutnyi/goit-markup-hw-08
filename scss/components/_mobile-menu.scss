@@ -1,3 +1,5 @@
+
+
 .menu-overlay {
   position: fixed;
   top: 0;
@@ -8,8 +10,12 @@
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-
+  
   transition: opacity 600ms ease-out, visibility 600ms ease-out;
+  
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
 .menu-overlay.is-open {
   opacity: 1;

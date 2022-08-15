@@ -1,9 +1,9 @@
 .footer-form {
-    display: flex;
-    flex-direction: column;
-    width: 450px;
-    height: 157px;
-    margin: auto 0px;
+    // display: flex;
+    // flex-direction: column;
+    // width: 450px;
+    // height: 157px;
+    // margin: auto 0px;
 
 
     @media screen and (min-width: 1200px) {
@@ -25,7 +25,7 @@
         margin-bottom: 20px;
 
         @media screen and (min-width: 1200px) {
-        display: block;
+        text-align: start;
         }
     }
     
@@ -52,6 +52,17 @@
         cursor: pointer;
 
         margin-bottom: 20px;
+
+
+
+        @media screen  and (min-width: 1200px){
+            
+
+                min-width: 358px;
+                max-width: 358px;
+                margin-bottom: 0;
+                margin-right: 12px;
+        }
 
     
 
@@ -89,6 +100,14 @@
 
     &__section {
         text-align: center;
+
+
+        @media screen and (min-width: 1200px) {
+            
+            width: 580px;
+            height: 87px;
+            text-align: start;
+        }
     }
     
 }
