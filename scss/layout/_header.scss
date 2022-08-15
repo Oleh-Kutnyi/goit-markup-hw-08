@@ -10,10 +10,19 @@
         padding-bottom: 24px;
         
     }
+
+
     
     &__container {
         display: flex;
         align-items: center;
+        
+        @media screen and (min-width: 767px) {
+            
+            width: 100%;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
     }
     
     &__logo {

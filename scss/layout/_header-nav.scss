@@ -29,6 +29,28 @@
 
     &__list {
         display: flex;
+
+        @media screen and (min-width: 767px) {
+
+            margin-left: auto;
+            
+        }
+        
+        &__flex {
+            
+            @media screen and (min-width: 767px) {
+                
+                display: flex;
+                flex-direction: column;
+            }
+
+
+            @media screen and(min-width: 1200px) {
+                
+                flex-direction: row;
+            }
+        }
+
     }
     
     &__item {
@@ -85,6 +107,18 @@
             
             &:focus .header-nav__icon {
                 fill: var(--blue-color-text);
+            }
+
+
+            @media screen and (min-width: 767px) {
+                
+                margin-right: 0px;
+            }
+          
+
+            @media screen and (min-width: 1200px) {
+
+                margin-right: 50px;
             }
     }
 

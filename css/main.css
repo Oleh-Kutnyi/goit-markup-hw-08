@@ -430,6 +430,12 @@ h2 {
   color: #757575;
   margin-left: 40px;
 }
+@media screen and (max-width: 1199px) {
+  .form-modal__agreement__text {
+    font-size: 12px;
+    line-height: 1.16;
+  }
+}
 .form-modal__agreement__link {
   font-family: "Roboto";
   font-style: normal;
@@ -440,6 +446,12 @@ h2 {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #2196f3;
+}
+@media screen and (max-width: 1199px) {
+  .form-modal__agreement__link {
+    font-size: 12px;
+    line-height: 1.16;
+  }
 }
 .form-modal__agreement__checkbox:checked + .form-modal__agreement__icon .form-modal__icon__emptymark {
   opacity: 0;
@@ -799,6 +811,13 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
 }
+@media screen and (min-width: 767px) {
+  .header__container {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
 .header__logo {
   font-family: "Raleway";
   font-style: normal;
@@ -840,6 +859,30 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+@media screen and (min-width: 767px) {
+  .header-nav__list {
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 767px) {
+  .header-nav__list__flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-nav__list__flex {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 .header-nav__item {
   font-style: normal;
@@ -891,6 +934,16 @@ h2 {
 }
 .header-nav__contacts:focus .header-nav__icon {
   fill: var(--blue-color-text);
+}
+@media screen and (min-width: 767px) {
+  .header-nav__contacts {
+    margin-right: 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-nav__contacts {
+    margin-right: 50px;
+  }
 }
 .header-nav__icon {
   fill: #757575;
@@ -1075,14 +1128,7 @@ h2 {
 }
 @media screen and (min-width: 1200px) {
   .underbox__list__title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--title-color);
-    margin-bottom: 10px;
+    text-align: start;
   }
 }
 .underbox__list__text {

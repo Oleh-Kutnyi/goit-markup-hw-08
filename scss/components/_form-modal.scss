@@ -152,6 +152,14 @@
             
             color: #757575;
             margin-left: 40px;
+
+
+           @media screen and(max-width: 1199px) {
+            
+                font-size: 12px;
+                line-height: 1.16;
+           }
+
         }
         
         &__link {
@@ -164,6 +172,13 @@
             text-decoration-line: underline;
             
             color: #2196f3;
+
+
+            @media screen and (max-width: 1199px) {
+                font-size: 12px;
+                line-height: 1.16;
+            }
+
         }
 
 
