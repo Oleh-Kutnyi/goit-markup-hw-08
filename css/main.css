@@ -1304,6 +1304,24 @@ h2 {
   -o-object-position: center;
      object-position: center;
 }
+@media screen and (min-width: 480px) {
+  .team-section__img {
+    width: 450px;
+    height: 460px;
+  }
+}
+@media screen and (min-width: 767px) {
+  .team-section__img {
+    width: 354px;
+    height: 374px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team-section__img {
+    width: 270px;
+    height: 260px;
+  }
+}
 .team-section__back {
   background-color: var(--pure-white-color);
   padding-top: 30px;
