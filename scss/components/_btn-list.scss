@@ -13,7 +13,14 @@
             align-items: baseline;
             align-items: center;
             justify-content: center;
+            margin-bottom: 30px;
         }
+          
+
+        @media screen and (min-width:480px) {
+            margin-bottom: 30px;
+        }
+
             
  
             &__btn {
@@ -44,13 +51,7 @@
                 }
             }
             
-            &__item {
-                margin-right: 8px;
-                
-            &:last-child {
-                    margin-right: 0px;
-                }
-            }
+
 }
 
 

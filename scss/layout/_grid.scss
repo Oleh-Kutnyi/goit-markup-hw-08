@@ -53,6 +53,25 @@
         &:hover .grid__overlay {
             transform: translateY(0);
         }
+
+
+        &__img {
+            @media screen and (min-width:480px) {
+                width: 450px;
+                height: 294px;
+            }
+            
+            @media screen and (min-width:767px) {
+                width: 354px;
+                    height:294px ;
+            }
+
+            @media screen and (min-width:1200px) {
+                width:  370px ;
+                height: 294px ;
+            }
+
+        }
     }
     
     &__overlay {

@@ -1,6 +1,6 @@
 .footer-section {
     background: var(--main-background-color);
-    padding: 60px 0px;
+    padding-top: 60px;
 
     &__div {
 
@@ -79,6 +79,13 @@
         &:hover,
         &:focus {
             color: var(--blue-color-text);
+        }
+
+        @media screen and (min-width: 767px) {
+
+            font-size: 12px;
+            line-height: 1.16;
+            
         }
     }
     
