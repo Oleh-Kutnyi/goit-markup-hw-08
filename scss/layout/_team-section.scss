@@ -10,7 +10,7 @@
           object-position: center;
 
 
-         @media screen and(min-width:480px) {
+         @media screen and(min-width:450px) {
             width: 450px;
             height: 460px;
          }
@@ -61,6 +61,11 @@
         color: var(--title-color);
 
 
+    @media screen and (min-width:480px) {
+        margin-bottom: 30px;
+    }
+
+
         @media screen and (min-width:767px) {
             margin-bottom: 30px;
         }
@@ -68,7 +73,7 @@
 
         @media screen and (min-width:1200px) {
 
-
+       margin-bottom: 50px;
                         font-size: 36px;
                             line-height: 1.2;
         }
