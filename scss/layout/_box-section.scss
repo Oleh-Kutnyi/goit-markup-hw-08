@@ -1,15 +1,13 @@
 
 
-.box-section {
-
-    @media screen and (max-width: 1200px) {
-        display: none;
-    }
-
 
     .box-section {
         background: var(--pure-white-color);
         padding-top: 0px;
+        
+                @media screen and (max-width: 1200px) {
+                    display: none;
+                }
    
         &__title {
         font-style: normal;
@@ -43,4 +41,3 @@
         bottom: 0;
     }
   }
-}

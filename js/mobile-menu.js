@@ -12,4 +12,8 @@
     mobileMenu.classList.toggle('is-open');
     // body.classList.toggle('no-scroll');
   }
+
+    function toggleModal() {
+    refs.modal.classList.toggle("is-hidden");
+  }
 })();

@@ -11,6 +11,11 @@
     
         color: var(--title-color);
 
+@media screen and (min-width: 767px) {
+    margin-bottom: 30px;
+}
+
+
        @media screen and (min-width:1200px) {
 
             font-size: 36px;
@@ -48,10 +53,19 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 170px;
+        width: 210px;
         height: 92px;
         border: 1px solid #afb1b8;
         border-radius: 4px;
+
+        @media screen and (min-width:767px){
+            width: 226px;
+        }
+
+
+        @media screen and (min-width: 1200px) {
+           width: 170px; 
+        }
     
         transition-property: background-color;
         transition-duration: 250ms;
