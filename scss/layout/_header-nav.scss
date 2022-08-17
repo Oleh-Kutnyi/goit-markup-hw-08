@@ -33,7 +33,7 @@
     &__list {
         display: flex;
 
-        @media screen and (min-width: 767px) {
+        @media screen and (min-width: 768px) {
 
             margin-left: auto;
             
@@ -41,7 +41,7 @@
         
         &__flex {
             
-            @media screen and (min-width: 767px) {
+            @media screen and (min-width: 768px) {
                 
                 display: flex;
                 flex-direction: column;
