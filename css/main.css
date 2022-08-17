@@ -1579,6 +1579,11 @@ h2 {
     padding-bottom: 35px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .grid__text__first {
+    padding-bottom: 0px;
+  }
+}
 .grid__item {
   position: relative;
   overflow: hidden;
